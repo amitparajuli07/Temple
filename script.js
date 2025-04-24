@@ -1,5 +1,4 @@
 /** @format */
-/** @format */
 let openmodal = document.getElementById("open");
 let closemodal = document.getElementById("close");
 let modal = document.getElementById("user");

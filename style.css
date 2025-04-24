@@ -172,29 +172,11 @@ li a:hover {
   position: relative;
   z-index: 1000;
 }
-.btn {
-  height: 8vh;
-  width: 10vw;
-  font-size: 1.5rem;
-  background: #6c757d;
-  background: linear-gradient(
-    90deg,
-    rgba(233, 236, 239, 1) 0%,
-    rgba(222, 226, 230, 1) 50%,
-    #6c757d 100%
-  );
-  border-radius: 1.2rem;
-  /* border-style: none; */
-}
-.btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.6);
-}
 
 /* modal css property */
 /* Style for the button itself */
 /* user idea */
-.transform-in {
+/* .transform-in {
   display: block;
   -webkit-transition: all ease 5s;
   transition: all ease 5s;
@@ -203,11 +185,6 @@ li a:hover {
 .transform-in {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
-}
-
-/* .transform-out {
-	-webkit-transform:translate(-50%, -50%) scale(0.5);
-	transform:translate(-50%, -50%) scale(0.5);
 } */
 
 :root {
@@ -264,46 +241,7 @@ li a:hover {
 .modal-content {
   padding: 20px;
 }
-.modal-form div {
-  margin: 20px 0;
-}
-.modal-form .form-input {
-  padding: 8px;
-  width: 100%;
-}
-.close-btn {
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  position: absolute;
-  top: 5px;
-  right: 12px;
-  cursor: pointer;
-}
-.user-idea .submit-btn {
-  padding: 10px 30px;
-  font-weight: bold;
-  background: rgb(0, 0, 0);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-}
-.user-idea .submit-btn:hover {
-  opacity: 0.9;
-  color: rgb(255, 255, 255);
-}
-.user-idea .submit-btn:active {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 3px;
-}
-.tell {
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
-  font-weight: 500;
-  text-transform: capitalize;
-  position: relative;
-}
+
 /* for javascript */
 .user-idea.show-modal {
   display: block;
