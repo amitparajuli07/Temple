@@ -164,11 +164,31 @@ li a:hover {
 }
 .btn-main {
   display: flex;
-  height: 5vh;
-  width: 6vw;
-  background-color: #42d337;
+  height: 8vh;
+  width: 10vw;
+
+  margin-left: 46vw;
+  margin-top: -30%;
+  position: relative;
+  z-index: 1000;
 }
 .btn {
+  height: 8vh;
+  width: 10vw;
+  font-size: 1.5rem;
+  background: #6c757d;
+  background: linear-gradient(
+    90deg,
+    rgba(233, 236, 239, 1) 0%,
+    rgba(222, 226, 230, 1) 50%,
+    rgba(206, 212, 218, 0.95) 100%
+  );
+  border-radius: 1.2rem;
+  /* border-style: none; */
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.6);
 }
 .slideshow {
   position: relative;
