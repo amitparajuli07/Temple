@@ -13,13 +13,9 @@ closemodal.addEventListener("click", () => {
   modal.classList.remove("show-modal");
 });
 //modal
-window.addEventListener("click", (e) => {
-  e.target === modal ? modal.classList.remove("show-modal") : false;
-});
 
-$(document).ready(function () {
-  $(".open").click(function (e) {
-    $(".user-idea").fadeIn(500);
-    $(".modal").addClass("transform-in");
-  });
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.remove("show-modal");
+  }
 });

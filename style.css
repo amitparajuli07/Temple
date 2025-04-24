@@ -176,29 +176,21 @@ li a:hover {
 /* modal css property */
 /* Style for the button itself */
 /* user idea */
-/* .transform-in {
-  display: block;
-  -webkit-transition: all ease 5s;
-  transition: all ease 5s;
-}
-
-.transform-in {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-} */
 
 :root {
   --modal-duration: 1s;
 }
 .user-idea {
-  background-color: none;
   display: none;
-  position: fixed;
+  position: fixed; /* important for full screen overlay */
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
+  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
 }
 
 #open {
@@ -231,19 +223,35 @@ li a:hover {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: absolute;
-  overflow: hidden;
-  top: 50%;
+  overflow: auto;
+  top: 40vh;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
-  width: 400px;
+  height: 70vh;
+  width: 70vw;
+}
+.balaji-image {
+  height: 66vh;
+  width: 27vw;
+  margin-bottom: 1vh;
 }
 .modal-content {
   padding: 20px;
 }
 
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  cursor: pointer;
+}
+
 /* for javascript */
-.user-idea.show-modal {
+.show-modal {
   display: block;
 }
 
