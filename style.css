@@ -162,7 +162,14 @@ li a:hover {
 .content h1 {
   font-size: 3.8rem;
 }
-
+.btn-main {
+  display: flex;
+  height: 5vh;
+  width: 6vw;
+  background-color: #42d337;
+}
+.btn {
+}
 .slideshow {
   position: relative;
   top: 0vh;
