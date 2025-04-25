@@ -8,12 +8,13 @@ let submit = document.querySelector(".submit-btn");
 openmodal.addEventListener("click", () => {
   modal.classList.add("show-modal");
 });
+
 // close
 closemodal.addEventListener("click", () => {
   modal.classList.remove("show-modal");
 });
-//modal
 
+//modal
 window.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.classList.remove("show-modal");
