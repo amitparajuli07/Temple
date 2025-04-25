@@ -40,7 +40,7 @@ html {
 
 .login-link {
   color: #5c4033;
-  font-size: 15\0px;
+  font-size: 15px;
   text-decoration: none;
   padding: 5px 10px;
   box-sizing: border-box;
@@ -185,12 +185,11 @@ li a:hover {
   position: fixed; /* important for full screen overlay */
   top: 0;
   left: 0;
-  margin-top: 50px;
+  margin-top: 85px;
   width: 100vw;
   height: 100vh;
   z-index: 999;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 #open {
@@ -223,7 +222,7 @@ li a:hover {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: absolute;
-  overflow: auto;
+  /* overflow: auto; */
   top: 40vh;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -231,10 +230,35 @@ li a:hover {
   height: 70vh;
   width: 70vw;
 }
+.left-side-image {
+  overflow: hidden;
+  position: fixed;
+  background-color: #5c4033;
+  height: 66vh;
+  width: 27vw;
+}
+.right-description {
+  height: 65.5vh;
+  width: 39vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 28vw;
+  margin-top: 1.8px;
+  background-color: #ffffff;
+}
 .balaji-image {
   height: 66vh;
   width: 27vw;
   margin-bottom: 1vh;
+}
+.text-edit {
+  margin: 20px;
+}
+.text-edit p {
+  font-size: 20 px;
+}
+.right-text {
+  margin-bottom: 13px;
 }
 .modal-content {
   padding: 20px;
@@ -243,13 +267,20 @@ li a:hover {
 .close-btn {
   background: transparent;
   border: none;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  top: 5px;
-  right: 12px;
+  top: 1px;
+  right: 2px;
   cursor: pointer;
+  width: 25px;
+  height: 35px;
 }
 
+.close-btn:hover {
+  border: #8b5a2b;
+  color: #fff;
+  background-color: black;
+}
 /* for javascript */
 .show-modal {
   display: block;
@@ -329,20 +360,49 @@ li a:hover {
 }
 
 /* expected results or output section  */
+/* Sliding text effect */
+.sliding-text {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #5c4033;
+  font-weight: bold;
+  padding: 1rem 0;
+  animation: slideInFromBottom 2s ease-in-out forwards;
+  opacity: 0; /* Start hidden */
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .output-main {
   justify-content: center;
   align-items: center;
   background-color: #42d337;
-  height: 30vh;
-  width: 22vw;
-  margin: 2vh;
+  height: 60vh;
+  width: 80vw;
+  margin: 4vh;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
 }
 .output-view {
-  height: 28vh;
-  width: 20vw;
-  margin: 2vh;
+  height: 55vh;
+  width: 75vw;
+  margin-top: 2px;
   background-color: red;
+  position: relative;
+  justify-content: center;
+  align-items: c;
 }
+
 video {
   height: 28vh;
   width: 20vw;
