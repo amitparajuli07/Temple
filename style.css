@@ -392,38 +392,48 @@ li a:hover {
 .output-main {
   display: flex;
   position: relative;
-  left: 8vw;
-  height: 70vh;
-  width: 80vw;
+  left: 7.5vw;
+  height: 65vh;
+  width: 40vw;
   margin: 4vh;
   margin-top: 15px;
+  background-color: #72fa7c;
 }
 .output-view {
   height: 65vh;
-  width: 78vw;
-  position: relative;
+  width: 40vw;
+  /* position: relative; */
   top: 2.4vh;
-  margin-left: 1vw;
+  /* margin-left: 1vw; */
+  background-color: #5c4033;
+}
+.second-output-main {
+  display: flex;
+  height: 65vh;
+  width: 40vw;
+  margin: 4vh;
+  margin-top: 1px;
+  float: right;
 }
 
 video {
   height: 65vh;
-  width: 78vw;
+  width: 40vw;
 }
 
 /* Donation Appeal Section Styling */
 .donation-appeal {
   background: linear-gradient(to bottom, #fff8e1, #ffe0b2);
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #5c4033;
 }
 
 .donation-appeal .container {
   max-width: 1000px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background: #ffffff;
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
