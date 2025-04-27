@@ -421,25 +421,25 @@ video {
   width: 40vw;
 }
 
-/* Donation Appeal Section Styling */
+/* Donation Appeal Section Styling
 .donation-appeal {
   background: linear-gradient(to bottom, #fff8e1, #ffe0b2);
   /* padding: 60px 20px; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #5c4033;
-}
+} */
 
-.donation-appeal .container {
+/* .donation-appeal .container {
   max-width: 1000px;
   /* margin: 0 auto; */
-  background: #ffffff;
-  /* padding: 40px 30px; */
-  border-radius: 12px;
+/* background: #ffffff; */
+/* padding: 40px 30px; */
+/* border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
+} */
 
-.donation-title {
+/* .donation-title {
   font-size: 2.2rem;
   color: #8b5a2b;
   margin-bottom: 20px;
@@ -463,8 +463,8 @@ video {
   margin-bottom: 40px;
 }
 
-.esewa-section,
-.bank-details {
+.esewa-section, */
+/* .bank-details {
   background-color: #fff9f0;
   padding: 20px;
   border: 2px dashed #c59d5f;
@@ -494,9 +494,9 @@ video {
   border: 2px solid #c59d5f;
   padding: 5px;
   background-color: #ffffff;
-}
+} */
 
-.bank-details p {
+/* .bank-details p {
   font-size: 1.1rem;
   margin: 8px 0;
   color: #5c4033;
@@ -507,10 +507,10 @@ video {
   color: #8b5a2b;
   font-weight: bold;
   margin-top: 30px;
-}
+} */
 
 /* Responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .donation-methods {
     flex-direction: column;
     align-items: center;
@@ -523,4 +523,4 @@ video {
   .donation-text {
     font-size: 1.1rem;
   }
-}
+} */
