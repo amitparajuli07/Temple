@@ -410,7 +410,7 @@ li a:hover {
 .second-output-main {
   display: flex;
   height: 65vh;
-  width: 40vw;
+  width: 100vw;
   margin: 4vh;
   margin-top: 1px;
   float: right;
@@ -421,13 +421,13 @@ video {
   width: 40vw;
 }
 
-/* Donation Appeal Section Styling
+/*Donation Appeal Section Styling*/
 .donation-appeal {
-  background: linear-gradient(to bottom, #fff8e1, #ffe0b2);
-  /* padding: 60px 20px; */
-/* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #5c4033;
-} */
+  display: block;
+  height: 60vh;
+  width: 100vw;
+  background-color: red;
+}
 
 /* .donation-appeal .container {
   max-width: 1000px;
