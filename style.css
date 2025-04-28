@@ -10,7 +10,7 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
-  height: 100%;
+  height: auto;
 }
 
 /* first navigation bar */
@@ -260,7 +260,7 @@ li a:hover {
   margin: 20px;
 }
 .text-edit p {
-  font-size: 20 px;
+  font-size: 20px;
 }
 .right-text {
   margin-bottom: 13px;
@@ -402,20 +402,23 @@ li a:hover {
 .output-view {
   height: 65vh;
   width: 40vw;
-  /* position: relative; */
   top: 2.4vh;
-  /* margin-left: 1vw; */
   background-color: #5c4033;
 }
 .second-output-main {
   display: flex;
   height: 65vh;
-  width: 100vw;
+  width: 40vw;
   margin: 4vh;
   margin-top: 1px;
-  float: right;
+  /* float: right; */
 }
-
+.second-output-view {
+  height: 65vh;
+  width: 40vw;
+  top: 2.4vh;
+  /* background-color: #5c4033; */
+}
 video {
   height: 65vh;
   width: 40vw;
@@ -429,17 +432,17 @@ video {
   background-color: red;
 }
 
-/* .donation-appeal .container {
+.donation-appeal .container {
   max-width: 1000px;
-  /* margin: 0 auto; */
-/* background: #ffffff; */
-/* padding: 40px 30px; */
-/* border-radius: 12px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-} */
+}
 
-/* .donation-title {
+.donation-title {
   font-size: 2.2rem;
   color: #8b5a2b;
   margin-bottom: 20px;
@@ -447,7 +450,7 @@ video {
   line-height: 1.4;
 }
 
-.donation-text {
+/* .donation-text {
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 40px;
@@ -463,8 +466,8 @@ video {
   margin-bottom: 40px;
 }
 
-.esewa-section, */
-/* .bank-details {
+.esewa-section,
+.bank-details {
   background-color: #fff9f0;
   padding: 20px;
   border: 2px dashed #c59d5f;
@@ -473,9 +476,9 @@ video {
   max-width: 450px;
   box-shadow: 0 4px 10px rgba(197, 157, 95, 0.3);
   text-align: left;
-}
+} */
 
-.esewa-section h3,
+/* .esewa-section h3,
 .bank-details h3 {
   font-size: 1.5rem;
   color: #7a4b22;
@@ -509,7 +512,7 @@ video {
   margin-top: 30px;
 } */
 
-/* Responsive */
+/*Responsive */
 /* @media (max-width: 768px) {
   .donation-methods {
     flex-direction: column;
