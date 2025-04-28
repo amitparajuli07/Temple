@@ -10,6 +10,7 @@ body {
   height: 10vh;
   width: 100%;
   background-color: #ffff;
+  /* sticky not working fix it  */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -23,16 +24,19 @@ body {
   width: 9.3vw;
   margin-left: 0.3vw;
 }
+
 .nav-logo {
   height: 5vh;
   width: 7vw;
   margin-top: 0.5vh;
   margin-left: 1.39vw;
 }
+
 .logo-image {
   height: 5vh;
   width: 7vw;
 }
+
 .nav-name {
   display: flex;
   justify-content: center;
@@ -43,9 +47,11 @@ body {
   color: black;
   margin-left: -1.7vw;
 }
+
 .name-link {
   text-decoration: none;
 }
+
 .nav-content {
   text-decoration: none;
   font-size: 17px;
