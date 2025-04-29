@@ -103,7 +103,6 @@ li a:hover {
   height: 12vh;
   width: 98vw;
   padding: 20px;
-  background: #8d0100;
   background: linear-gradient(
     90deg,
     rgba(141, 1, 0, 1) 0%,
@@ -150,44 +149,33 @@ li a:hover {
 }
 .donation-footer {
   margin-top: 10vh;
-  height: 20vh;
+  height: 15vh;
   width: 100%;
-  background-color: #d4af36;
 }
-
-/* .content {
-  margin: 20px 0;
+.footer-content {
+  height: 12vh;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(141, 1, 0, 1) 0%,
+    rgba(255, 0, 2, 1) 50%,
+    rgba(156, 0, 0, 0.95) 100%
+  );
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  margin: 10px;
+  padding: 6px;
+  color: #d4af36;
+  /* background-color: #37fe00; */
 }
-
-.donation-options {
-  margin-top: 20px;
-}
-
-.option {
-  background-color: #ffe0b2;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.option h3 {
-  margin: 0;
-}
-
-button {
-  background-color: #b71c1c;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-footer {
+.footer-content p {
   text-align: center;
-  margin-top: 20px;
-  background-color: #b71c1c;
-  color: white;
-  padding: 5px 0;
-  border-radius: 0 0 8px 8px;
-} */
+}
+.copyright {
+  height: 5vh;
+  width: 100%;
+
+  position: relative;
+  bottom: 1.6vh;
+}
