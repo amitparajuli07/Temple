@@ -3,7 +3,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff3e0;
+  background-color: #fff8e6;
+  overflow-x: hidden;
 }
 /* second navigation bar  */
 .nav-bars {
@@ -83,23 +84,39 @@ li a:hover {
 }
 /* body section css */
 .container {
-  width: 80%;
-  margin: auto;
+  display: flex;
+  width: 98vw;
+  height: 10vh;
   padding: 20px;
-  background-color: #fef3a8;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: hidden;
+  background: #8d0100;
+  background: linear-gradient(
+    90deg,
+    rgba(141, 1, 0, 1) 0%,
+    rgba(255, 0, 2, 1) 50%,
+    rgba(156, 0, 0, 0.95) 100%
+  );
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-
-header {
-  background-color: #b71c1c;
-  color: white;
-  padding: 10px 0;
+.first-element {
+  height: 12vh;
+  width: 100%;
+  background-color: #fff8e6;
   text-align: center;
-  border-radius: 8px 8px 0 0;
+}
+.first-element h1 {
+  margin-top: 12px;
+  color: #d4af36;
+  font-size: 35px;
+}
+.first-element h3 {
+  margin-top: -2vh;
+  color: #d4af36;
 }
 
-.content {
+/* .content {
   margin: 20px 0;
 }
 
@@ -134,4 +151,4 @@ footer {
   color: white;
   padding: 5px 0;
   border-radius: 0 0 8px 8px;
-}
+} */
