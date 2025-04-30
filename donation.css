@@ -170,7 +170,7 @@ li a:hover {
   width: 20vw;
   background-color: rgb(255, 255, 255);
   margin-left: 60vw;
-  margin-top: 10vh;
+  margin-top: 3vh;
   padding: 10px 25px;
   border: solid 3px #d0a600;
   border-radius: 1rem;
@@ -185,8 +185,9 @@ li a:hover {
 }
 .right-second img {
   width: 20vw;
-  height: 24vh;
+  height: 29vh;
 }
+
 .donation-footer {
   margin-top: 10vh;
   height: 10vh;

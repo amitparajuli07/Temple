@@ -20,3 +20,7 @@ window.addEventListener("click", (e) => {
     modal.classList.remove("show-modal");
   }
 });
+let reload = document.querySelector(".nav-name");
+reload.addEventListener("click", () => {
+  location.reload();
+});
