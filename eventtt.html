@@ -1,0 +1,115 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temple Events</title>
+    <link rel="stylesheet" href="styleTemple.css" />
+  </head>
+  <body>
+    <!-- navigation bars -->
+    <div class="nav-bars">
+      <div class="nav-main">
+        <div class="logo-text">
+          <a href="index.html" class="name-link">
+            <div class="nav-logo">
+              <img src="logo.png" alt="logo of balaji " class="logo-image" />
+            </div>
+            <div class="nav-name">Tirupati Balaji</div>
+          </a>
+        </div>
+        <div class="nav-content">
+          <ul>
+            <li><a href="index.html" class="list-items">Home</a></li>
+            <li><a href="eventtt.html" class="list-items">Events</a></li>
+            <li><a href="gallery.html" class="list-items">Gallery</a></li>
+            <li><a href="donation.html" class="list-items">Donation</a></li>
+            <li><a href="members.html" class="list-items">Members</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1 style="text-align: center">Temple Events</h1>
+    </header>
+
+    <!-- Countdown Timer -->
+    <section>
+      <h2>🕒 Next Big Event Starts In:</h2>
+      <div id="countdown" style="font-size: 1.5rem; color: green"></div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section>
+      <h2>🛕 Upcoming Events</h2>
+      <div class="event-card">
+        <h3>Satyanarayan Katha</h3>
+        <p>Date: May 5, 2025</p>
+        <p>Time: 10:00 AM</p>
+        <p>Location: Main Prayer Hall</p>
+      </div>
+      <div class="event-card">
+        <h3>Hanuman Jayanti Bhajan</h3>
+        <p>Date: May 10, 2025</p>
+        <p>Time: 6:00 PM</p>
+        <p>Location: Sabha Hall</p>
+      </div>
+    </section>
+
+    <!-- Past Events -->
+    <section>
+      <h2>📸 Past Events</h2>
+      <div class="event-card">
+        <h3>Ram Navami Celebration</h3>
+        <p>Held on: April 17, 2025</p>
+        <p>Photo Gallery: <a href="#">View</a></p>
+      </div>
+      <div class="event-card">
+        <h3>Navratri Bhajan Sandhya</h3>
+        <p>Held on: March 25, 2025</p>
+        <p>Video Highlights: <a href="#">Watch</a></p>
+      </div>
+    </section>
+
+    <!-- Event Registration Form -->
+    <section>
+      <h2>📝 Register for an Event</h2>
+      <form id="event-form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <select required>
+          <option value="">Select Event</option>
+          <option>Satyanarayan Katha</option>
+          <option>Hanuman Jayanti Bhajan</option>
+        </select>
+        <button type="submit">Register</button>
+      </form>
+      <div id="form-message" style="color: green"></div>
+    </section>
+
+    <!-- Festival Calendar -->
+    <section>
+      <h2>🗓️ Festival Calendar</h2>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>Festival</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>Akshaya Tritiya</td>
+          <td>May 10, 2025</td>
+        </tr>
+        <tr>
+          <td>Guru Purnima</td>
+          <td>July 21, 2025</td>
+        </tr>
+        <tr>
+          <td>Krishna Janmashtami</td>
+          <td>August 16, 2025</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
